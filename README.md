@@ -22,7 +22,7 @@
 ## How to use:
 1. Find firefox profile's root directory in `about:profiles`
     
-2. clone, copy and delete the repo as shown in the following:
+2. Clone, Copy and Delete(optional) the repo as shown in the following:
     ```zsh
     git clone https://github.com/AnonCYTO/foxy-config.git  
     cp -r /foxy-config/chrome /path/to/firefox/profile/
