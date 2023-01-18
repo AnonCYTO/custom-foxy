@@ -12,7 +12,7 @@
 - Removes/hides the ugly ahh tab bar on the top in Firefox
 - Hides `TreeStyleTab` top bar
 
-
+&nbsp;
 
 ## Requirements:
 - The Firefox extension named `TreeStyleTab`
@@ -20,13 +20,12 @@
 &nbsp;
 
 ## How to use:
-Find firefox profile's root directory in `about:profiles`  
-
-```zsh
-git clone https://github.com/AnonCYTO/foxy-config.git  
-cp -r /foxy-config/chrome /path/to/firefox/profile/
-rm -rvf /foxy-config/
-```
-
-In 'about:config', set bool to:
-    - "toolkit.legacyUserProfileCustomizations.stylesheets" = true
+1. Find firefox profile's root directory in `about:profiles`
+    
+2. clone, copy and delete the repo as shown in the following:
+    ```zsh
+    git clone https://github.com/AnonCYTO/foxy-config.git  
+    cp -r /foxy-config/chrome /path/to/firefox/profile/
+    rm -rvf /foxy-config/
+    ```
+3. In `about:config`, set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
